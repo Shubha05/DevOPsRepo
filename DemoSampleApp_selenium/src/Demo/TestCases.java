@@ -1,4 +1,4 @@
-package Demo;
+upackage Demo;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -28,7 +28,7 @@ public class TestCases {
 
 		String welcometext = driver.getTitle();
 		Assert.assertEquals(welcometext, "DevOps Tool", "Text not found");
-		System.out.println("hello! I’m in development environment ");
+		System.out.println("hello! I’m in feature environment ");
 	}
 
 	@Test
