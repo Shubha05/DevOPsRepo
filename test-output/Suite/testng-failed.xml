@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.nagp.seleniumassignment2.testcases.HomePageTests">
+        <methods>
+          <include name="navigateToUrl"/>
+          <include name="beforeMethod"/>
+          <include name="initializeBrowser"/>
+          <include name="verifyTabs"/>
+          <include name="CloseWindow"/>
+          <include name="afterMethod"/>
+          <include name="verifyLogin" invocation-numbers="1"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.nagp.seleniumassignment2.testcases.HomePageTests -->
+      <class name="com.nagp.seleniumassignment2.testcases.CruisesTest">
+        <methods>
+          <include name="navigateToUrl"/>
+          <include name="beforeMethod"/>
+          <include name="initializeBrowser"/>
+          <include name="CloseWindow"/>
+          <include name="afterMethod"/>
+          <include name="cruiseInfo"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.nagp.seleniumassignment2.testcases.CruisesTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
